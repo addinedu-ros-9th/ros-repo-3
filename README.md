@@ -8,7 +8,7 @@
 
 | Leading (동행 안내) | Following (추종) |
 | --- | --- |
-| [![Leading Demo](/images/leading_thumbnail.png)](https://youtu.be/4Kcd3IMIhL8) | [![Following Demo](/images/following_thumbnail.png)](https://youtu.be/4ZDxL9DHjOM) |
+| [![Leading Demo](/images/leading_play_thumbnail.png)](https://youtu.be/4Kcd3IMIhL8) | [![Following Demo](/images/following_play_thumbnail.png)](https://youtu.be/4ZDxL9DHjOM) |
 
 ---
 ## 0. Development Environment
