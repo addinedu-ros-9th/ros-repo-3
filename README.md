@@ -173,29 +173,27 @@
 
 ##### 1) Setup
 - **ARCS_mode** — *Mode 선택 (Leading / Following)*  
-  ![setup_mode](https://dummyimage.com/640x360/eeeeee/222222.gif&text=setup_mode)
+  ![lead_mode](/images/lead_mode_10s.gif)
 - **ARCS_qr** — *QR 인증 (탑승권 → 사용자 매핑)*  
-  ![setup_qr](https://dummyimage.com/640x360/eeeeee/222222.gif&text=setup_qr)
+  ![lead_qr](/images/lead_qr_10s.gif)
 - **ARCS_load** — *짐 적재 확인 (무게/고정)*  
-  ![setup_load](https://dummyimage.com/640x360/eeeeee/222222.gif&text=setup_load)
+  ![lead_load](/images/lead_load_10s.gif)
 
 ##### 2) Destination & Plan
 - **ARCS_destinations** — *목적지/경유지 선택*  
-  ![destination_select](https://dummyimage.com/640x360/eeeeee/222222.gif&text=destination_select)
-- **ARCS_path** *(이벤트)* — *경로 생성 완료 → 타임라인 `PATH_PLANNED`*  
-  ![route_planned](https://dummyimage.com/640x360/eeeeee/222222.gif&text=route_planned)
+  ![lead_destinations](/images/lead_destinations_10s.gif)
+- **ARCS_path** — *경로 생성 완료* 
+  ![lead_path](/images/lead_path_10s.gif)
 
 ##### 3) Lead (안내 중)
 - **ARCS_lead** — *안내 주행 메인 데모*  
-  ![lead_demo](https://dummyimage.com/640x360/eeeeee/222222.gif&text=lead_demo)
-- **ARCS_next** — *다음 웨이포인트 진입 → `NEXT_WAYPOINT #n`*  
-  ![lead_next](https://dummyimage.com/640x360/eeeeee/222222.gif&text=lead_next)
-- **ARCS_leave** — *사용자 이탈 감지 → `USER_LEFT`*  
-  ![lead_leave](https://dummyimage.com/640x360/eeeeee/222222.gif&text=lead_leave)
-- **ARCS_comeback** — *사용자 재획득 → `USER_REACQUIRED`*  
-  ![lead_comeback](https://dummyimage.com/640x360/eeeeee/222222.gif&text=lead_comeback)
-- **ARCS_return** — *출발지/기지 복귀 결정 → `RETURN_TO_START`*  
-  ![lead_return](https://dummyimage.com/640x360/eeeeee/222222.gif&text=lead_return)
+  ![lead](/images/lead_10s.gif)
+- **ARCS_next** — *다음 웨이포인트 진입*
+  ![lead_next](/images/lead_next_10s.gif)
+- **ARCS_leave_comeback** — *사용자 이탈/복귀*
+  ![lead_leave_comeback](/images/lead_leave_comeback_10s.gif)
+
+
 
 ##### 4) Pause / Resume
 - **ARCS_wait** — *일시정지*  
