@@ -1,5 +1,5 @@
 # 🛫 ARCS: Airport Robot for Customer Service
-공항에서 **동행 안내(Leading/Following)**, **안전 추종**, **자연어 질의응답(LLM)** 을 제공하는 공항 특화 안내 로봇 시스템
+공항에서 **동행 안내(Leading/Following)**, **자연어 질의응답(LLM)** 을 제공하는 공항 특화 안내 로봇 시스템
 
 ---
 
