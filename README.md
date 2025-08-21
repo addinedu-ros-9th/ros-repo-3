@@ -106,12 +106,7 @@
 | SR_22 | 자동 복귀 | ① 사용자 종료 시 충전소 복귀 ② 경유지 도착 후 무응답 시 복귀 | ✅ |
 
 ### 4.3. System Architecture
-![System Architecture](images/arcs_system_architecture.png)
-
-- **User/Admin GUI ↔ Main Service**: TCP  
-- **Main Service ↔ ARCS BOT**: ROS  
-- **Main Service ↔ AI Services(Chat/Vision)**: TCP/UDP 혼용  
-- **Main Controller ↔ Data Service**: UART
+![System Architecture](/images/system_architecture.png)
 
 ### 4.4. Interface Specification (요약)
 - **공통 프레임**: Header 0x00 · Length 4B · Command 2B
@@ -156,14 +151,14 @@
 
 ### 4.6. State Diagram
 > 공통 흐름 이후 **Leading / Following** 두 가지 분기로 나뉩니다.
-
-![State Diagram – Common Flow](images/state_common.png)  
+#### Common
+![State Diagram – Common Flow](images/state_diagram_common.png)  
 *Start → Waiting → User Detection → Loading*
-
-![State Diagram – Leading](images/state_leading.png)  
+#### Leading
+![State Diagram – Leading](images/state_diagram_leading.png)  
 *Leading → Destination Setting ↔ Stop → Unloading → Charging*
-
-![State Diagram – Following](images/state_following.png)  
+#### Following
+![State Diagram – Following](images/state_diagram_following.png)  
 *Following ↔ Stop → Unloading → Charging*
 
 ### 4.7. GUI Configuration
