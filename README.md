@@ -249,11 +249,13 @@
 - 파이프라인: **사람 탐지 → 다중대상 추적 → 임베딩 기반 Re-ID(유사도)**  
 - 효과: 프레임 이탈/재진입 시 **동일 대상 유지**, 군중 속 오인식 감소
  ![tracking](/images/tracking_10s.gif)
-**Troubleshooting(요약)**  
-| 이슈 | 시도 | 결과/결정 |
+
+**Troubleshooting (요약)**
+
+| 이슈 | 시도한 조치 | 결과/결정 |
 |---|---|---|
-| 프레임 아웃/재진입 시 ID 변경 | DeepSORT 단독, `max_age` ↑ | **Re-ID 필요** 확인 |
-| 백본 속도/성능 트레이드오프 | ResNet34 → **ResNet18** | **실시간성 확보**, ID 안정 유지 |
+| 프레임 아웃/재진입 시 ID 변경 | DeepSORT 단독 운용, `max_age` 상향 | **Re-ID 필요** 확인 |
+| 백본 속도↔성능 트레이드오프 | ResNet34 → **ResNet18** | **실시간성 확보**, ID 안정성 유지 |
 
 ### 5.2. Following Obstacle Avoidance
 - 전/후/좌/우 **위험 영역** 정의, 경우별 회피 기동
