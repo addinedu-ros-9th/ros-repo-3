@@ -258,6 +258,8 @@
 ### 5.2. Following Obstacle Avoidance
 - 전/후/좌/우 **위험 영역** 정의, 경우별 회피 기동
  ![avoiding](/images/avoiding.png)
+ ![avoiding](/images/avoiding_10s.gif)
+
 
 
 ### 5.3. LLM Service
@@ -315,6 +317,8 @@ sudo ip route add 192.168.0.0/24 via 192.168.5.1
 | 전체 초기화(글로벌) | `/global_costmap/clear_entirely_global_costmap` | `nav2_msgs/srv/ClearEntireCostmap` | `ros2 service call /global_costmap/clear_entirely_global_costmap nav2_msgs/srv/ClearEntireCostmap {}` |
 | 전체 초기화(로컬) | `/local_costmap/clear_entirely_local_costmap` | `nav2_msgs/srv/ClearEntireCostmap` | `ros2 service call /local_costmap/clear_entirely_local_costmap nav2_msgs/srv/ClearEntireCostmap {}` |
 
+**버블이 사라진 맵의 모습**
+![inflation](/images/inflation.png)
 ---
 
 ## 7. Limitations
