@@ -196,20 +196,19 @@
 
 
 ##### 4) Pause / Resume
-- **ARCS_wait** — *일시정지*  
-  ![pause](https://dummyimage.com/640x360/eeeeee/222222.gif&text=pause)
-- **ARCS_resume** — *재개*  
-  ![resume](https://dummyimage.com/640x360/eeeeee/222222.gif&text=resume)
+- **ARCS_pause** — *일시정지*  
+  ![lead_pause_resume](/images/lead_pause_resume_10s.gif)
+
 
 ##### 5) Finish
 - **ARCS_end** — *세션 종료(도착 안내/하차)*  
-  ![finish_end](https://dummyimage.com/640x360/eeeeee/222222.gif&text=finish_end)
+  ![lead_end](/images/lead_end_10s.gif)
 - **(선택) ARCS_return** — *종료 후 복귀 선택 시*  
-  ![finish_return](https://dummyimage.com/640x360/eeeeee/222222.gif&text=finish_return)
+  ![lead_return](/images/lead_return_10s.gif)
 
 ##### 6) Charging
 - **ARCS_charge** — *충전 스테이션 도킹/충전 시작*  
-  ![charging](https://dummyimage.com/640x360/eeeeee/222222.gif&text=charging)
+  ![lead_charge](/images/lead_charge_10s.gif)
 
 ---
 
