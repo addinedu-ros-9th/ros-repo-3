@@ -216,39 +216,33 @@
 
 ##### 1) Setup
 - **ARCS_mode**  
-  ![setup_mode](https://dummyimage.com/640x360/eeeeee/222222.gif&text=setup_mode)
+  ![follow_mode](/images/follow_mode_10s.gif)
 - **ARCS_qr**  
-  ![setup_qr](https://dummyimage.com/640x360/eeeeee/222222.gif&text=setup_qr)
+  ![follow_qr](/images/follow_qr_10s.gif)
 - **ARCS_load**  
-  ![setup_load](https://dummyimage.com/640x360/eeeeee/222222.gif&text=setup_load)
+  ![follow_load](/images/follow_load_10s.gif)
 
 ##### 2) Follow (추종 중)
 - **ARCS_follow** — *추종 메인 데모*  
-  ![follow_demo](https://dummyimage.com/640x360/eeeeee/222222.gif&text=follow_demo)
-- **ARCS_far** — *대상 유실/거리 초과 → `TARGET_LOST`*  
-  ![follow_far](https://dummyimage.com/640x360/eeeeee/222222.gif&text=follow_far)
-- **ARCS_close** — *과근접(안전거리 미만) → `TARGET_CLOSE`*  
-  ![follow_close](https://dummyimage.com/640x360/eeeeee/222222.gif&text=follow_close)
+  ![follow](/images/follow_10s.gif)
+- **ARCS_far_close** — *대상 유실/거리 초과 → `TARGET_LOST`*  
+  ![follow_far_close](/images/follow_far_close_10s.gif)
 - **ARCS_avoid** — *회피 로직 활성화 → `AVOID_ACTIVE`*  
-  ![follow_avoid](https://dummyimage.com/640x360/eeeeee/222222.gif&text=follow_avoid)
-- **(옵션) E-Stop** — *비상정지 장면*  
-  ![follow_estop](https://dummyimage.com/640x360/eeeeee/222222.gif&text=follow_estop)
+  ![follow_avoid](/images/follow_avoid_10s.gif)
 
 ##### 3) Pause / Resume
-- **ARCS_wait**  
-  ![pause](https://dummyimage.com/640x360/eeeeee/222222.gif&text=pause)
-- **ARCS_resume**  
-  ![resume](https://dummyimage.com/640x360/eeeeee/222222.gif&text=resume)
+- **ARCS_pause_resume**  
+  ![follow_pause_resume](/images/follow_pause_resume_10s.gif)
 
 ##### 4) Finish
 - **ARCS_end**  
-  ![finish_end](https://dummyimage.com/640x360/eeeeee/222222.gif&text=finish_end)
-- **(선택) ARCS_return** — *종료 후 복귀 선택 시*  
-  ![finish_return](https://dummyimage.com/640x360/eeeeee/222222.gif&text=finish_return)
+  ![follow_end](/images/follow_end_10s.gif)
+- **ARCS_return** — *종료 후 복귀 선택 시*  
+  ![follow_return](/images/follow_return_10s.gif)
 
 ##### 5) Charging
 - **ARCS_charge**  
-  ![charging](https://dummyimage.com/640x360/eeeeee/222222.gif&text=charging)
+  ![follow_charge](/images/follow_charge_10s.gif)
 ## 5. Intelligent Modules
 
 ### 5.1. Tracking & Re-ID
