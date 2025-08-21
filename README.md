@@ -168,7 +168,7 @@
 - **Following (5단계)**: `Setup → Follow → Pause/Resume → Finish → Charging`
 
 ---
-
+##### 4.7.1.A Leading
 | 주요 단계 | 설명 | 클립 |
 |---|---|---|
 | **1) Setup** | - **ARCS_mode** — *Mode 선택 (Leading / Following)*<br>- **ARCS_qr** — *QR 인증*<br>- **ARCS_load** — *짐 적재 확인* | ![lead_mode](images/lead_mode_10s.gif)<br>![lead_qr](images/lead_qr_10s.gif)<br>![lead_load](images/lead_load_10s.gif) |
@@ -179,7 +179,7 @@
 | **6) Charging** | - **ARCS_charge** — *충전 스테이션 도킹/충전 시작* | ![lead_charge](images/lead_charge_10s.gif) |
 
 ---
-
+##### 4.7.1.B Following
 | 주요 단계 | 설명 | 클립 |
 |---|---|---|
 | **1) Setup** | - **ARCS_mode** — *Mode 선택 (Leading / Following)*<br>- **ARCS_qr**— *QR 인증*<br>- **ARCS_load** — *짐 적재 확인* | ![follow_mode](images/follow_mode_10s.gif)<br>![follow_qr](images/follow_qr_10s.gif)<br>![follow_load](images/follow_load_10s.gif) |
