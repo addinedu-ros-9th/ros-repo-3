@@ -169,80 +169,26 @@
 
 ---
 
-#### 4.7.2 A. Leading
-
-##### 1) Setup
-- **ARCS_mode** — *Mode 선택 (Leading / Following)*  
-  ![lead_mode](/images/lead_mode_10s.gif)
-- **ARCS_qr** — *QR 인증 (탑승권 → 사용자 매핑)*  
-  ![lead_qr](/images/lead_qr_10s.gif)
-- **ARCS_load** — *짐 적재 확인 (무게/고정)*  
-  ![lead_load](/images/lead_load_10s.gif)
-
-##### 2) Destination & Plan
-- **ARCS_destinations** — *목적지/경유지 선택*  
-  ![lead_destinations](/images/lead_destinations_10s.gif)
-- **ARCS_path** — *경로 생성 완료* 
-  ![lead_path](/images/lead_path_10s.gif)
-
-##### 3) Lead (안내 중)
-- **ARCS_lead** — *안내 주행 메인 데모*  
-  ![lead](/images/lead_10s.gif)
-- **ARCS_next** — *다음 웨이포인트 진입*
-  ![lead_next](/images/lead_next_10s.gif)
-- **ARCS_leave_comeback** — *사용자 이탈/복귀*
-  ![lead_leave_comeback](/images/lead_leave_comeback_10s.gif)
-
-
-
-##### 4) Pause / Resume
-- **ARCS_pause_resume** — *일시정지*  
-  ![lead_pause_resume](/images/lead_pause_resume_10s.gif)
-
-
-##### 5) Finish
-- **ARCS_end** — *세션 종료(도착 안내/하차)*  
-  ![lead_end](/images/lead_end_10s.gif)
-- **(선택) ARCS_return** — *종료 후 복귀 선택 시*  
-  ![lead_return](/images/lead_return_10s.gif)
-
-##### 6) Charging
-- **ARCS_charge** — *충전 스테이션 도킹/충전 시작*  
-  ![lead_charge](/images/lead_charge_10s.gif)
+| 주요 단계 | 설명 | 클립 |
+|---|---|---|
+| **1) Setup** | - **ARCS_mode** — *Mode 선택 (Leading / Following)*<br>- **ARCS_qr** — *QR 인증*<br>- **ARCS_load** — *짐 적재 확인* | ![lead_mode](images/lead_mode_10s.gif)<br>![lead_qr](images/lead_qr_10s.gif)<br>![lead_load](images/lead_load_10s.gif) |
+| **2) Destination & Plan** | - **ARCS_destinations** — *목적지/경유지 선택*<br>- **ARCS_path** — *경로 생성 완료* | ![lead_destinations](images/lead_destinations_10s.gif)<br>![lead_path](images/lead_path_10s.gif) |
+| **3) Lead (안내 중)** | - **ARCS_lead** — *안내 주행 메인 데모*<br>- **ARCS_next** — *다음 웨이포인트 진입*<br>- **ARCS_leave_comeback** — *사용자 이탈/복귀* | ![lead](images/lead_10s.gif)<br>![lead_next](images/lead_next_10s.gif)<br>![lead_leave_comeback](images/lead_leave_comeback_10s.gif) |
+| **4) Pause / Resume** | - **ARCS_pause_resume** — *일시정지/재개* | ![lead_pause_resume](images/lead_pause_resume_10s.gif) |
+| **5) Finish** | - **ARCS_end** — *세션 종료(도착 안내/하차)*<br>- **(선택) ARCS_return** — *종료 후 복귀 선택 시* | ![lead_end](images/lead_end_10s.gif)<br>![lead_return](images/lead_return_10s.gif) |
+| **6) Charging** | - **ARCS_charge** — *충전 스테이션 도킹/충전 시작* | ![lead_charge](images/lead_charge_10s.gif) |
 
 ---
 
-#### 4.7.3 B. Following
+| 주요 단계 | 설명 | 클립 |
+|---|---|---|
+| **1) Setup** | - **ARCS_mode** — *Mode 선택 (Leading / Following)*<br>- **ARCS_qr**— *QR 인증*<br>- **ARCS_load** — *짐 적재 확인* | ![follow_mode](images/follow_mode_10s.gif)<br>![follow_qr](images/follow_qr_10s.gif)<br>![follow_load](images/follow_load_10s.gif) |
+| **2) Follow (추종 중)** | - **ARCS_follow** — *추종 메인 데모*<br>- **ARCS_far_close** — *대상 유실/거리 초과*<br>- **ARCS_avoid** — *회피 로직 활성화* | ![follow](images/follow_10s.gif)<br>![follow_far_close](images/follow_far_close_10s.gif)<br>![follow_avoid](images/follow_avoid_10s.gif) |
+| **3) Pause / Resume** | - **ARCS_pause_resume**  — *일시정지/재개*| ![follow_pause_resume](images/follow_pause_resume_10s.gif) |
+| **4) Finish** | - **ARCS_end** — *세션 종료(도착 안내/하차)*<br>- **ARCS_return** — *종료 후 복귀 선택 시* | ![follow_end](images/follow_end_10s.gif)<br>![follow_return](images/follow_return_10s.gif) |
+| **5) Charging** | - **ARCS_charge** — *충전 스테이션 도킹/충전 시작* | ![follow_charge](images/follow_charge_10s.gif) |
 
-##### 1) Setup
-- **ARCS_mode**  
-  ![follow_mode](/images/follow_mode_10s.gif)
-- **ARCS_qr**  
-  ![follow_qr](/images/follow_qr_10s.gif)
-- **ARCS_load**  
-  ![follow_load](/images/follow_load_10s.gif)
-
-##### 2) Follow (추종 중)
-- **ARCS_follow** — *추종 메인 데모*  
-  ![follow](/images/follow_10s.gif)
-- **ARCS_far_close** — *대상 유실/거리 초과*
-  ![follow_far_close](/images/follow_far_close_10s.gif)
-- **ARCS_avoid** — *회피 로직 활성화* 
-  ![follow_avoid](/images/follow_avoid_10s.gif)
-
-##### 3) Pause / Resume
-- **ARCS_pause_resume**  
-  ![follow_pause_resume](/images/follow_pause_resume_10s.gif)
-
-##### 4) Finish
-- **ARCS_end**  
-  ![follow_end](/images/follow_end_10s.gif)
-- **ARCS_return** — *종료 후 복귀 선택 시*  
-  ![follow_return](/images/follow_return_10s.gif)
-
-##### 5) Charging
-- **ARCS_charge**  
-  ![follow_charge](/images/follow_charge_10s.gif)
+---
 ## 5. Intelligent Modules
 
 ### 5.1. Tracking & Re-ID
