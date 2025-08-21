@@ -196,7 +196,7 @@
 
 
 ##### 4) Pause / Resume
-- **ARCS_pause** — *일시정지*  
+- **ARCS_pause_resume** — *일시정지*  
   ![lead_pause_resume](/images/lead_pause_resume_10s.gif)
 
 
@@ -225,9 +225,9 @@
 ##### 2) Follow (추종 중)
 - **ARCS_follow** — *추종 메인 데모*  
   ![follow](/images/follow_10s.gif)
-- **ARCS_far_close** — *대상 유실/거리 초과 → `TARGET_LOST`*  
+- **ARCS_far_close** — *대상 유실/거리 초과*
   ![follow_far_close](/images/follow_far_close_10s.gif)
-- **ARCS_avoid** — *회피 로직 활성화 → `AVOID_ACTIVE`*  
+- **ARCS_avoid** — *회피 로직 활성화* 
   ![follow_avoid](/images/follow_avoid_10s.gif)
 
 ##### 3) Pause / Resume
@@ -248,7 +248,7 @@
 ### 5.1. Tracking & Re-ID
 - 파이프라인: **사람 탐지 → 다중대상 추적 → 임베딩 기반 Re-ID(유사도)**  
 - 효과: 프레임 이탈/재진입 시 **동일 대상 유지**, 군중 속 오인식 감소
-
+ ![tracking](/images/tracking_10s.gif)
 **Troubleshooting(요약)**  
 | 이슈 | 시도 | 결과/결정 |
 |---|---|---|
@@ -256,10 +256,9 @@
 | 백본 속도/성능 트레이드오프 | ResNet34 → **ResNet18** | **실시간성 확보**, ID 안정 유지 |
 
 ### 5.2. Following Obstacle Avoidance
-- 전/후/좌/우 **위험 영역** 정의, 속도 연동 스케일링  
-- 전면 침범: **즉시 E-Stop** / 후면: 전진 우선(후진 금지) / 좌우: 측면 거리 유지 + **Yaw PID** 미세 조향  
-- 미검출 시 저속 탐색, 재검출 시 **동일 ID 복원**  
-- (옵션) **도어웨이 패스스루**: 출입구 통과 시 측면 회피 억제로 직진 유지
+- 전/후/좌/우 **위험 영역** 정의, 경우별 회피 기동
+ ![avoiding](/images/avoiding.png)
+
 
 ### 5.3. LLM Service
 - **Base**: google/gemma-2b, **Fine-tuning**: LoRA (peft), Adapter: `adapter_model.safetensors`  
