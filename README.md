@@ -4,11 +4,11 @@
 ---
 
 ## 🎥 Quick Demos
-> Leading / Following 핵심 동작을 각각 60–90초로 요약했습니다. 썸네일을 클릭하면 재생됩니다.
+> Leading / Following 핵심 동작을 나타냈습니다. 썸네일을 클릭하면 재생됩니다.
 
 | Leading (동행 안내) | Following (추종) |
 | --- | --- |
-| [![Leading Demo](images/leading_thumb.png)](https://youtu.be/4Kcd3IMIhL8) | [![Following Demo](images/following_thumb.png)](https://youtu.be/4ZDxL9DHjOM) |
+| [![Leading Demo](/images/leading_thumbnail.png)](https://youtu.be/4Kcd3IMIhL8) | [![Following Demo](/images/following_thumbnail.png)](https://youtu.be/4ZDxL9DHjOM) |
 
 ---
 ## 0. Development Environment
