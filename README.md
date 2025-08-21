@@ -4,7 +4,7 @@
 ---
 
 ## 🎥 Quick Demos
-> Leading / Following 핵심 동작을 나타냈습니다. 썸네일을 클릭하면 재생됩니다.
+> Leading / Following 핵심 동작을 나타냈습니다. **썸네일을 클릭하면 재생**됩니다.
 
 | Leading (동행 안내) | Following (추종) |
 | --- | --- |
