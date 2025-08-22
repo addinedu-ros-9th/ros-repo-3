@@ -28,12 +28,13 @@
 ---
 
 ## 2. Key Features
-- **동행 안내(Leading/Following)**: 목적지 복수 선택, 경로 생성·안내, 이탈·재진입 처리  
-- **안전 주행 보조**: 전·후·좌·우 구역 기반 장애물 회피 + **긴급 정지(E-Stop)**  
-- **안정 추종(Re-ID)**: 재진입 시에도 **동일 대상 유지**  
-- **GUI 이원화**: **User GUI**(현장 조작·경로 선택) / **Admin Console**(상태·정책·충전 복귀)  
-- **자연어 Q&A(LLM)**: 경량 LLM + LoRA로 **도메인 질의응답**(주행 제어와 완전 분리)
-
+| 영역 | 핵심 |
+|---|---|
+| **안내** | Leading/Following, 복수 경유지, 이탈·재진입 처리 |
+| **안전** | 전/후/좌/우 위험영역 회피, E-Stop |
+| **인식** | Tracking + 임베딩 Re-ID로 동일 대상 유지 |
+| **운영** | User GUI / Admin Console 이원화 |
+| **지식응답** | 경량 LLM + LoRA, 주행 제어와 프로세스 분리 |
 ---
 
 ## 3. Team Information
@@ -265,7 +266,7 @@ sudo ip route add 192.168.0.0/24 via 192.168.5.1
 | 전체 초기화(글로벌) | `/global_costmap/clear_entirely_global_costmap` | `nav2_msgs/srv/ClearEntireCostmap` | `ros2 service call /global_costmap/clear_entirely_global_costmap nav2_msgs/srv/ClearEntireCostmap {}` |
 | 전체 초기화(로컬) | `/local_costmap/clear_entirely_local_costmap` | `nav2_msgs/srv/ClearEntireCostmap` | `ros2 service call /local_costmap/clear_entirely_local_costmap nav2_msgs/srv/ClearEntireCostmap {}` |
 
-**버블이 사라진 맵의 모습**
+버블이 사라진 맵의 모습
 ![inflation](/images/inflation.png)
 ---
 
