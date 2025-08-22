@@ -175,7 +175,7 @@
 | **2) Destination & Plan** | - **ARCS_destinations** — *목적지/경유지 선택*<br>- **ARCS_path** — *경로 생성 완료* | ![lead_destinations](images/lead_destinations_10s.gif)<br>![lead_path](images/lead_path_10s.gif) |
 | **3) Lead (안내 중)** | - **ARCS_lead** — *안내 주행 메인 데모*<br>- **ARCS_next** — *다음 웨이포인트 진입*<br>- **ARCS_leave_comeback** — *사용자 이탈/복귀* | ![lead](images/lead_10s.gif)<br>![lead_next](images/lead_next_10s.gif)<br>![lead_leave_comeback](images/lead_leave_comeback_10s.gif) |
 | **4) Pause / Resume** | - **ARCS_pause_resume** — *일시정지/재개* | ![lead_pause_resume](images/lead_pause_resume_10s.gif) |
-| **5) Finish** | - **ARCS_end** — *세션 종료(도착 안내/하차)*<br>- **(선택) ARCS_return** — *종료 후 복귀 선택 시* | ![lead_end](images/lead_end_10s.gif)<br>![lead_return](images/lead_return_10s.gif) |
+| **5) Finish** | - **ARCS_end** — *세션 종료(도착 안내/하차)*<br>- **ARCS_return** — *종료 후 복귀 선택 시* | ![lead_end](images/lead_end_10s.gif)<br>![lead_return](images/lead_return_10s.gif) |
 | **6) Charging** | - **ARCS_charge** — *충전 스테이션 도킹/충전 시작* | ![lead_charge](images/lead_charge_10s.gif) |
 
 ---
